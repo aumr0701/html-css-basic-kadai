@@ -1,9 +1,9 @@
 body{
     font-family: "Arial","Meiryo",sans-serif;
+    text-align: center;
 }
 html{
     font-size: 20px;
-    text-align: center;
 }
 .blue{
     color: skyblue;
@@ -19,7 +19,7 @@ h1{
 }
 h1{
     font-size: 2rem;
-    letter-spacing: 1.2;
+    letter-spacing: 1.2em;
     text-shadow: 3px 4px 1px red;
     border-bottom: solid 3px rgb(115, 115, 114);
 }
