@@ -1,7 +1,7 @@
-h1 p body{
+h1, p, body{
     margin: 0;
 }
-p a{
+p, a{
     font-size: 20px;
 }
 header{
@@ -25,14 +25,14 @@ main{
 }
 #parent{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 h2{
     font-size: 25px;
     border-bottom: 3px dotted rgb(236, 122, 122);
 }
 h2::before{
-    content: "⚫︎";
+    content: "●";
     color: rgb(239, 111, 139);
 }
 .contents p:nth-of-type(2)::first-letter{
@@ -64,6 +64,6 @@ a:hover{
         font-size: 25px;
     }
     #parent{
-        display: block;
+        flex-direction: column;
     }
 }
